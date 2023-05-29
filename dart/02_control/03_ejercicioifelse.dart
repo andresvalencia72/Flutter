@@ -14,7 +14,7 @@ main() {
     age = int.parse(stdin.readLineSync() ?? '0');
     if (age >= 21) {
       stdout.writeln('ciudadano');
-    } else if (age >= 18 && age <= 20) {
+    } else if (age >= 18) {
       stdout.writeln('Mayor de edad');
     } else {
       stdout.writeln('Menor de edad');
